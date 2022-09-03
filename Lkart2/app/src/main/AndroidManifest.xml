@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rohit.lkart2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Forgot_Password_Activity"
+            android:label="@string/title_activity_forgot__password_"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CreateAccountActivity"
+            android:label="@string/title_activity_create_account"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OtpActivity"
+            android:label="@string/title_activity_otp"
+            android:parentActivityName=".Forgot_Password_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.Forgot_Password_Activity" />
+        </activity>
+        <activity
+            android:name=".NewPasswordActivity"
+            android:label="@string/title_activity_new_password"
+            android:parentActivityName=".Forgot_Password_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.Forgot_Password_Activity" />
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/title_activity_welcome"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ClickActivity"
+            android:label="@string/title_activity_click"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HomePageActivity"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginSignupActivity"
+            android:label="@string/title_activity_login_signup"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".FeedbackNavActivity"
+            android:label="@string/title_activity_feedback_nav"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".ProductActivity"
+            android:label="@string/title_activity_product"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".OrderActivity"
+            android:label="@string/title_activity_order"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".CartActivity"
+            android:label="@string/title_activity_cart"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".SubcategoryActivity"
+            android:label="@string/title_activity_subcategory"
+            android:parentActivityName=".CategoryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".NewProductListActivity"
+            android:label="@string/title_activity_new_product_list"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".storeActivity"
+            android:label="@string/title_activity_store"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/title_activity_category"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".AllProductActivity"
+            android:label="@string/title_activity_all_product"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".storeproductActivity"
+            android:label="@string/title_activity_storeproduct"
+            android:parentActivityName=".storeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.storeActivity" />
+        </activity>
+        <activity
+            android:name=".singlecartdesignActivity"
+            android:label="@string/title_activity_singlecartdesign"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProductDetailActivity"
+            android:label="@string/title_activity_product_detail"
+            android:parentActivityName=".ProductActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.ProductActivity" />
+        </activity>
+        <activity
+            android:name=".StoreDetailActivity"
+            android:label="@string/title_activity_store_detail"
+            android:parentActivityName=".storeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.storeActivity" />
+        </activity>
+        <activity
+            android:name=".MyAccountActivity"
+            android:label="@string/title_activity_my_account"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".SellOnLkartActivity"
+            android:label="@string/title_activity_sell_on_lkart"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".Fillorder_Activity"
+            android:label="@string/title_activity_fillorder_"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".OrderDetailActivity"
+            android:label="@string/title_activity_order_detail"
+            android:parentActivityName=".OrderActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.OrderActivity" />
+        </activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".StoreOnMapActivity"
+            android:label="@string/title_activity_store_on_map">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+        <activity
+            android:name=".BuyNowActivity"
+            android:label="@string/title_activity_buy_now"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MapDemoActivity"
+            android:label="@string/title_activity_map_demo"
+            android:parentActivityName=".HomePageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rohit.lkart2.HomePageActivity" />
+        </activity>
+    </application>
+
+</manifest>

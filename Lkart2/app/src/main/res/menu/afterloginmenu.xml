@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_shop_category"
+            android:icon="@drawable/list"
+            android:title="Shop By Category" />
+
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/product"
+            android:title="Product" />
+
+
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/offers"
+            android:title="Store" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/placeholder"
+            android:title="Store On Map" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_my_account"
+                android:icon="@drawable/user"
+                android:title="My Account" />
+            <item
+                android:id="@+id/nav_my_order"
+                android:icon="@drawable/choices"
+                android:title="My Orders" />
+            <item
+                android:id="@+id/nav_my_cart"
+                android:icon="@drawable/cart"
+                android:title="My Cart" />
+            <item
+                android:id="@+id/nav_my_wishlist"
+                android:icon="@drawable/wishlist"
+                android:title="Wishlist" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_sell_on_lkart"
+                android:icon="@drawable/sell"
+                android:title="Sell on L-kart" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/notification"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/support"
+                android:title="Supports" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/survey"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

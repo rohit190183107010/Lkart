@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Lkart2</string>
+    <string name="title_activity_forgot__password_">Forgot Password</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="title_activity_otp">OTP</string>
+    <string name="title_activity_new_password">New Password</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_feedback">Feedback Activity</string>
+    <string name="title_activity_click">ClickActivity</string>
+    <string name="title_activity_home_page">L-Kart</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_signup">Login/Signup</string>
+    <string name="title_activity_feedback_nav">Feedback</string>
+    <string name="title_activity_product">Product</string>
+    <string name="title_activity_product_p">Product</string>
+    <string name="title_activity_order">Order Activity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_subcategory">SubcategoryActivity</string>
+    <string name="title_activity_new_product_list">All Products</string>
+    <string name="title_activity_store">store Activity</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_all_product">All Products</string>
+    <string name="title_activity_storeproduct">store product Activity</string>
+    <string name="title_activity_singlecartdesign">Cart</string>
+    <string name="title_activity_single_my_cart_design">My Cart</string>
+    <string name="title_activity_cart_design">Cart</string>
+    <string name="title_activity_product_detail">"Product Detail "</string>
+    <string name="title_activity_store_detail">Store Detail</string>
+    <string name="title_activity_my_account">MyAccountActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_sell_on_lkart">SellOnLkartActivity</string>
+    <string name="title_activity_fillorder_">Fillorder_Activity</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_order_detail">OrderDetailActivity</string>
+    <string name="title_activity_store_on_map">Map</string>
+    <string name="title_activity_buy_now">BuyNowActivity</string>
+    <string name="title_activity_map_demo">Store on Map</string>
+</resources>

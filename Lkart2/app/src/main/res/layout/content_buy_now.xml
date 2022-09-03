@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rohit.lkart2.BuyNowActivity"
+    tools:showIn="@layout/activity_buy_now">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="4dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtname"
+                        android:hint="name"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/username"
+                        android:textColor="#990000"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtmobile"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:hint="mobile"
+                        android:drawableLeft="@drawable/ic_telephone_symbol_button"
+                        android:textColor="#990000"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtemail"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:hint="email"
+                        android:drawableLeft="@drawable/email"
+                        android:textColor="#990000"
+                        />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Address"
+                        android:id="@+id/edtaddress"
+                        android:background="@drawable/round"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:inputType="textMultiLine"
+                        android:lines="5"
+                        android:gravity="top"
+
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Pincode"
+                        android:id="@+id/edtpincode"
+                        android:background="@drawable/round"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:inputType="number"
+                        android:drawableLeft="@drawable/ic_address"
+                        />
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter City"
+                        android:id="@+id/edtcity"
+                        android:background="@drawable/round"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/ic_address"
+                        />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter State"
+                        android:id="@+id/edtstate"
+                        android:background="@drawable/round"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/ic_address"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:id="@+id/txttotalpayment"
+                        android:drawablePadding="15dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:drawableLeft="@drawable/ic_repee"
+                        />
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="place order"
+                        android:textColor="#ffffff"
+                        android:id="@+id/btnplaceorder"
+                        android:background="#990000"
+                        android:textSize="15sp"
+                        android:padding="10dp"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        />
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

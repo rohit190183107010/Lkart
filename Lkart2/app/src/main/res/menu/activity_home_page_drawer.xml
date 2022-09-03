@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/login"
+            android:title="Login/Signup" />
+        <item
+            android:id="@+id/nav_shop_category"
+            android:icon="@drawable/list"
+            android:title="Shop By Category" />
+
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/product"
+            android:title="Products" />
+
+
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/offers"
+            android:title="Store" />
+        <item
+            android:id="@+id/nav_subcategory"
+            android:icon="@drawable/offers"
+            android:title="Sub category" />
+
+
+    </group>
+
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_sell_on_lkart"
+                android:icon="@drawable/sell"
+                android:title="Sell on L-kart" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/notification"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/support"
+                android:title="Supports" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/survey"
+                android:title="Feedback" />
+
+        </menu>
+    </item>
+
+</menu>

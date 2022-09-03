@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rohit.lkart2.ProductDetailActivity"
+    tools:showIn="@layout/activity_product_detail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:id="@+id/productdetailimg"
+                android:src="@drawable/iphone"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apple iPhone 8 Plus (Space Grey, 64 GB) "
+                android:textSize="15sp"
+                android:textColor="#990000"
+                android:textStyle="bold"
+                android:id="@+id/txtproductdetailname"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="64,999"
+                android:textColor="#990000"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/ic_repee"
+                android:drawablePadding="5dp"
+                android:id="@+id/txtproductdetailprice"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETAIL"
+                android:textColor="#990000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/txtproductdetail"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iPhone XS has a 5.8-inch2 all-screen Super Retina display. The back is glass, and there's a stainless steel band around the frame. The side button is on the right side of the device. There are 12MP wide-angle and telephoto cameras on the back."
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:id="@+id/txtproductdetaildes"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Size :"
+                    android:textColor="#990000"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    />
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/spnsize"
+                    android:background="@drawable/round"
+                    android:layout_margin="3dp"
+                    android:inputType="number"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUANTITY :"
+                android:textColor="#990000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/txtqtyview"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="QUANTITY :"
+                android:textColor="#990000"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/txtproductqty"
+                />
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:id="@+id/edtqty"
+                android:background="@drawable/round"
+                android:drawablePadding="15dp"
+                android:layout_margin="3dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/sell"
+                android:inputType="number"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="BUY nOW"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#990000"
+                    android:textColor="#fff"
+                    android:id="@+id/btnbuynow"
+                    />
+                <Button
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="add to cart"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="#990000"
+                    android:textColor="#fff"
+                    android:id="@+id/btnaddtocart"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+</RelativeLayout>
